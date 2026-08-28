@@ -1,0 +1,14 @@
+INVENTORY APP - LINUX
+=====================
+
+RUN:
+  1. Double-click  run-web.sh  (or:  ./run-web.sh  in a terminal)
+  2. Browser opens the app at http://localhost:8080
+
+Requires python3 (preinstalled on most distros).
+If the file is blocked:  chmod +x run-web.sh
+
+NOTES
+  - Your data is saved in the browser on THIS computer.
+    (Use the Export buttons to back it up as Excel/PDF.)
+  - Plug in a USB barcode scanner; it works like a keyboard.

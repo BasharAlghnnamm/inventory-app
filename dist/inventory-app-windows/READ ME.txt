@@ -1,0 +1,19 @@
+Inventory App - Windows version
+================================
+
+HOW TO RUN
+1. Double-click "run-web.bat"
+2. Your browser opens the app at http://localhost:8080
+
+No installation needed. Uses built-in Windows PowerShell to serve the app.
+
+NOTES
+- Data is saved inside the browser (local). Clearing browser data
+  deletes it.
+- A USB barcode scanner works like a keyboard; just plug it in.
+- Close the "Inventory Server" window to stop the app.
+
+TO REBUILD FROM SOURCE (needs Flutter SDK)
+  flutter build web --release
+  then replace the "web" folder here with build/web
+  (keep run-web.bat, serve.ps1 and this file)

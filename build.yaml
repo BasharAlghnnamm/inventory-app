@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      riverpod_generator:
+        options:
+          provider_class_name_suffix: Provider
+          generate_initializer: true
